@@ -637,6 +637,11 @@ canvas {
 /* Mobile Responsive Optimizations */
 @media (max-width: 900px) and (orientation: landscape) {
 
+  #joystick-container {
+    top: 0;
+    height: 100%;
+  }
+
   #inventory-screen,
   #storage-screen {
     min-width: 80%;
